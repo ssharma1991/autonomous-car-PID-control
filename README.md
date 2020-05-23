@@ -8,3 +8,6 @@
 ## Hyperparameter Tuning:
 - All parameters are tuned manually. A simple logic to control the speed of car is used. When the car's speed is above 25mph, we consider greater than 12 degree as excessive steerig and apply brakes. If the steering is under 10 degrees, we consider the car to be in control and acclerate.
 - To find the optimum PID parameters, the parameters used in class are considered as initial value. They are tweaked until a satisfactory motion is achieved. The start values are (.2,.004,3) and final values are (.12,.003,5). The end results are in accordance with our intusion since the P value decreases, I values is somewhat unchanged and D value increases. 
+
+## References
+This project is submitted as partial fulfillment of the Udacity's Self-Driving Car Engineer Nanodegree program. The helper code is available [here](https://github.com/udacity/CarND-PID-Control-Project).
